@@ -1,0 +1,96 @@
+body{
+  background: linear-gradient(to right,  rgba(0,127,255 , 1), rgba(255,225,0 , 1));
+  
+}
+
+#chassis{
+  margin:0 auto;
+    width:700px;
+
+
+}
+
+#center{
+ 
+  margin-top:20px;
+}
+
+.swedenyellow{
+  background-color:#fecc00;
+  
+} 
+.swedenblue{
+   background-color:#006aa7;
+  
+}
+
+.showtext{
+  display:inline !important;
+}
+
+.hide{display:none}
+
+.bordermid{
+  border-bottom:1px solid;
+}
+.bordernone{
+  border-bottom:10px solid; 
+}
+
+#fourboders{
+  border:1px solid;
+}
+
+#swe{
+  
+  animation:sweden 2s 
+}
+#den{
+  
+  animation:sweden 2s 
+}
+
+
+
+@keyframes sweden{
+    0%{
+    opacity:.5;
+     color:#006aa7;   transform:translateX(-50px);
+      transition:all 5s;
+    }
+    30%{
+        
+        color:#006aa7;
+    }
+  60%{
+        
+        color:#fecc00;
+    }
+    
+    
+  80%{
+    transform:translateX(10px);
+  }
+    
+    100%{
+        opacity:1;
+/*   transform translate 0 means it will look how it looks right now*/
+ 
+            
+    }
+    
+}
+
+#swe:hover{
+   transform: skewY(5deg);
+ color:#ffffff; 
+  
+}
+#den:hover{
+    transform:skewY(5deg);
+ color:#ffffff;  
+  
+}
+
+
+
